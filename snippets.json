@@ -1,0 +1,32 @@
+{
+    "snippets" : [
+        {
+            "name" : "example",
+            "tags" : "example this",
+            "code" : [
+                "# This is an example snippet!!!!",
+                "# To create your own, add a new snippet block to the",
+                "# snippets.json file in your jupyter data directory under nbextensions:",
+                "# $(jupyter --data-dir)/nbextensions/snippets/snippets.json",
+                "import this"
+            ]
+        },
+        {
+            "name" : "example2",
+            "tags" : "example test",
+            "code" : [
+                "# This is just a test",
+                "66666666666666666666666666666666666669999999999999999999"
+            ]
+        },
+        {
+            "name" : "some imports",
+            "tags" : "numpy matplotlib",
+            "code" : [
+                "import numpy as np",
+                "import matplotlib as mpl",
+                "print('spam')"
+            ]
+        }
+    ]
+}

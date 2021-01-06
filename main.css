@@ -1,0 +1,53 @@
+#options {
+  padding: 1px;
+  border: 1px solid #aaa;
+  background-color: white;
+  z-index: 105;
+  max-height: 200px;
+  max-width: 250px;
+  height: max-content;
+  width: max-content;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.option {
+  margin: 1px;
+  background-color:  white;
+  z-index: 105;
+  list-style: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  white-space:nowrap;
+}
+
+#box {
+  position: absolute;
+  left: 129px;
+  z-index: 105;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.cell-wrapper {
+  z-index: 105;
+  border: 1px;
+  width: max-content;
+  max-width: 850px;
+  max-height: 500px;
+}
+
+.cell-wrapper .cell {
+  padding: 0;
+  border: 0px;
+}
+
+.cell-wrapper .prompt_container {
+  display: none;
+}
+
+.cell-wrapper .input_area {
+  background-color: white;
+}
